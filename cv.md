@@ -7,6 +7,7 @@
 - **Email** [girloflondon@gmail.com](girloflondon@gmail.com)
 - **Telegram** [@girloflondon](https://t.me/girloflondon)
 - **LinkedIn** [Mariia Petukhova](https://www.linkedin.com/in/mariia-petukhova-77388725/)
+- **Discord** girloflondon
 
 ## About
 

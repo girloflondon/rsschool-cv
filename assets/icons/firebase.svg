@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="196.11 35.534 161.717 191.769">
+  <defs>
+    <ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/>
+    <filter id="filter0_d_57_6699" x="162" y="88.0029" width="102" height="102" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="2.0029"/>
+      <feGaussianBlur stdDeviation="3"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_57_6699"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_57_6699" result="shape"/>
+    </filter>
+  </defs>
+  <clipPath id="SVGID_2_">
+    <ellipse transform="matrix(0.7986250120419751, -0.6018289542228382, 0.6018289542228382, 0.7986250120419751, 43.81797795642399, 266.714330579451)" cx="420.5" cy="67.9" rx="63" ry="51.8" overflow="visible"/>
+  </clipPath>
+  <g style="clip-path: url(&quot;#SVGID_2_&quot;);" transform="matrix(0.816556, 0, 0, 0.816556, 20.322556, 154.483887)">
+    <g id="Layer_2_1_">
+      <defs>
+        <path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z"/>
+      </defs>
+      <clipPath id="SVGID_4_">
+        <path transform="matrix(0.7986250120419751, -0.6018289542228382, 0.6018289542228382, 0.7986250120419751, 43.605811309518515, 267.02624883674696)" d="M330.9-14.2h179.8v165.1H330.9z" overflow="visible"/>
+      </clipPath>
+      <g id="Layer_1-2" style="clip-path:url(#SVGID_4_)">
+        <defs>
+          <ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/>
+        </defs>
+        <clipPath id="SVGID_6_">
+          <ellipse transform="matrix(0.7986250120419751, -0.6018289542228382, 0.6018289542228382, 0.7986250120419751, 43.81797795642399, 266.714330579451)" cx="420.5" cy="67.9" rx="63" ry="51.8" overflow="visible"/>
+        </clipPath>
+        <g style="clip-path:url(#SVGID_6_)">
+          <defs>
+            <path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/>
+          </defs>
+          <defs>
+            <path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/>
+          </defs>
+          <path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z" style="fill: none; stroke: rgb(0, 0, 0); stroke-miterlimit: 10; stroke-width: 4px;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path d="M 250.574 216.821 C 258.106 219.852 266.278 221.651 274.858 221.951 C 286.47 222.356 297.513 219.955 307.384 215.395 C 295.547 210.744 284.826 203.942 275.676 195.486 C 269.744 204.983 260.972 212.483 250.574 216.821 Z" fill="#FF9100"/>
+  <path d="M 275.676 195.489 C 254.789 176.172 242.118 148.212 243.189 117.546 C 243.224 116.55 243.276 115.555 243.338 114.56 C 239.597 113.593 235.692 113.002 231.673 112.862 C 225.92 112.661 220.349 113.375 215.09 114.856 C 209.514 124.623 206.15 135.829 205.73 147.832 C 204.649 178.809 223.395 205.877 250.574 216.823 C 260.972 212.486 269.744 204.994 275.676 195.489 Z" fill="#FFC400"/>
+  <path d="M 275.676 195.488 C 280.532 187.717 283.477 178.606 283.819 168.79 C 284.721 142.969 267.363 120.758 243.338 114.559 C 243.277 115.554 243.224 116.55 243.19 117.545 C 242.119 148.211 254.79 176.171 275.676 195.488 Z" fill="#FF9100"/>
+  <path d="M 281.133 41.98 C 267.45 52.941 256.646 67.395 250.109 84.045 C 246.366 93.582 244.014 103.827 243.328 114.566 C 267.352 120.764 284.71 142.975 283.808 168.796 C 283.466 178.612 280.513 187.714 275.665 195.494 C 284.815 203.959 295.536 210.752 307.374 215.403 C 331.135 204.419 347.993 180.785 348.969 152.831 C 349.602 134.719 342.643 118.577 332.81 104.951 C 322.426 90.541 281.133 41.98 281.133 41.98 Z" fill="#DD2C00"/>
+  <g filter="url(#filter0_d_57_6699)" transform="matrix(1, 0, 0, 1, 140.378281, 40.749359)"/>
+</svg>

@@ -61,10 +61,6 @@ footer {
 .header-container__image {
   height: 300px;
   width: 300px;
-  background-image: url(./assets/images/profile_img.png);
-  background-repeat: no-repeat;
-  background-position-y: 40%;
-  background-size: 120%;
   border-radius: 50%;
   border: 5px solid #fff;
 }

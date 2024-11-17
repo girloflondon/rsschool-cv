@@ -1,9 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>CV - Mariia Petukhova - Frontend Developer</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#about">about</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#skills">skills</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#code">code example</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#projects">projects</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#experience">experience</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__item-link" href="#education">education</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__container">
+        <img
+          class="header-container__image"
+          src="./assets/images/profile_img.png"
+          alt="Mariia Petukhova"
+        >
+
+        <div class="header-container__description">
+          <h1 class="description__title">
+            Hi, I'm <span class="title__name">Mariia Petukhova</span>, a
+            <span class="title__position">Junior Front-end Developer</span>
+            living in Germany.
+          </h1>
+
+          <span class="description__element"></span>
+
+          <div class="description__list">
+            <div class="description-list__item">
+              <a class="description-list__link" href="https://g.co/kgs/XY9CB2x"
+                ><img
+                  class="description-list__link-icon"
+                  src="./assets/icons/geo_pink.svg"
+                  alt="Location"
+              ></a>
+              <p class="description-list__text">Heidelberg, Germany</p>
+            </div>
+
+            <div class="description-list__item">
+              <a class="description-list__link" href="https://t.me/girloflondon"
+                ><img
+                  class="description-list__link-icon"
+                  src="./assets/icons/telegram_pink.svg"
+                  alt="Telegram"
+              ></a>
+              <p class="description-list__text">@girloflondon</p>
+            </div>
+
+            <div class="description-list__item">
+              <a
+                class="description-list__link"
+                href="mailto:girloflondon@gmail.com"
+                ><img
+                  class="description-list__link-icon"
+                  src="./assets/icons/email_pink.svg"
+                  alt="Email"
+              ></a>
+              <p class="description-list__text">girloflondon@gmail.com</p>
+            </div>
+
+            <div class="description-list__item">
+              <a
+                class="description-list__link"
+                href="https://discordapp.com/users/1192834967139524751/ "
+                ><img
+                  class="description-list__link-icon"
+                  src="./assets/icons/discord_pink.svg"
+                  alt="Discord"
+              ></a>
+              <p class="description-list__text">@girloflondon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section" id="about">
+        <h2 class="section__title">about</h2>
+        <p class="section__text">
+          I'm an aspiring front-end developer with background in communication
+          design. My knowledge and experience in programming and UX/UI allow me
+          to develop efficient, practical and visually-appealing solutions for
+          various tasks.
+        </p>
+        <p class="section__text">
+          I strive to grow and improve as a specialist as well as write clean
+          and easy-to-process code. Vast experience in communications under my
+          belt helps me understand clients better and assist them in achieving
+          their goals.
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section__title">skills</h2>
+
+        <div class="section__content">
+          <ul class="section-content__list1">
+            <li class="section-content__list1-item">Figma / Pixso</li>
+            <li class="section-content__list1-item">Bootstrap</li>
+            <li class="section-content__list1-item">React (basic)</li>
+            <li class="section-content__list1-item">HTML5</li>
+            <li class="section-content__list1-item">Git</li>
+            <li class="section-content__list1-item">Vite (basic)</li>
+            <li class="section-content__list1-item">CSS3</li>
+            <li class="section-content__list1-item">BEM</li>
+            <li class="section-content__list1-item">Firebase (basic)</li>
+            <li class="section-content__list1-item">pre-processor SASS</li>
+            <li class="section-content__list1-item">JavaScript</li>
+          </ul>
+
+          <ul class="section-content__list2">
+            <li class="section-content__list2-item">Russian C2</li>
+            <li class="section-content__list2-item">English C2</li>
+            <li class="section-content__list2-item">German B2</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section__title">code example</h2>
+        <pre class="section__code-block">
+          <code class="section__code">
+function multiply(a, b){ 
+  return a * b;
+}
+
+multiply(2, 5);
+          </code>
+        </pre>
+        <a
+          class="section__code-link"
+          href="https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"
+          >* "Multiply" Keta from Codewars</a
+        >
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section__title">projects</h2>
+        <div class="section__container">
+          <div class="section-container__block">
+            <h3 class="section-container__block-header">Digital agency ORA</h3>
+            <div class="section-container__block-list">
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/html.svg"
+                alt="HTML5"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/css.svg"
+                alt="CSS3"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/git.svg"
+                alt="Git"
+              >
+            </div>
+            <a
+              class="section-container__block-button"
+              href="https://github.com/YuliaKov/Project1"
+              >here</a
+            >
+          </div>
+
+          <div class="section-container__block">
+            <h3 class="section-container__block-header">Pet Care Project</h3>
+            <div class="section-container__block-list">
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/html.svg"
+                alt="HTML5"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/css.svg"
+                alt="CSS3"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/js.svg"
+                alt="JavaScript"
+              >
+            </div>
+            <a
+              class="section-container__block-button"
+              href="https://github.com/girloflondon/pet-care-project"
+              >here</a
+            >
+          </div>
+
+          <div class="section-container__block">
+            <h3 class="section-container__block-header">
+              Magic Coffee Shop App (Work in Progress)
+            </h3>
+            <div class="section-container__block-list">
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/js.svg"
+                alt="JavaScript"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/vite.svg"
+                alt="Vite"
+              >
+              <img
+                class="section-container__block-icon"
+                src="./assets/icons/firebase.svg"
+                alt="Firebase"
+              >
+            </div>
+            <a
+              class="section-container__block-button"
+              href="https://github.com/Margo-Bond/magic-coffee"
+              >here</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section__title">experience</h2>
+        <div class="section__block">
+          <div class="section-block__list">
+            <div class="section-block__side">
+              <p class="section-block__side-date">June 2023 - present</p>
+              <p class="section-block__side-location">Online</p>
+            </div>
+            <div class="section-block__main">
+              <h3 class="section-block__main-subheader">
+                Freelance junior front-end developer
+              </h3>
+              <ul class="section-block__main-list">
+                <li class="section-block__main-item">
+                  + create websites, apps, wireframes and ux/ui mock-ups
+                </li>
+                <li class="section-block__main-item">
+                  + responsible for testing and code review of projects
+                </li>
+                <li class="section-block__main-item">
+                  + negotiate, discuss and present projects to clients
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-block__list">
+            <div class="section-block__side">
+              <p class="section-block__side-date">September 2020 - present</p>
+              <p class="section-block__side-location">Heidelberg, Germany</p>
+            </div>
+            <div class="section-block__main">
+              <h3 class="section-block__main-subheader">
+                Customer Service Manager at Ben Storch
+              </h3>
+              <ul class="section-block__main-list">
+                <li class="section-block__main-item">
+                  + work with Russian and English-speaking clients
+                </li>
+                <li class="section-block__main-item">
+                  + consult on company's services and document reuqirements
+                </li>
+                <li class="section-block__main-item">
+                  + write reports, fill out declarations in German and English
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-block__list">
+            <div class="section-block__side">
+              <p class="section-block__side-date">October 2019 - April 2021</p>
+              <p class="section-block__side-location">St.Petersburg, Russia</p>
+            </div>
+            <div class="section-block__main">
+              <h3 class="section-block__main-subheader">
+                Freelance translator for tv and series
+              </h3>
+              <ul class="section-block__main-list">
+                <li class="section-block__main-item">
+                  + translated and prepared voiceover scripts in Russian and
+                  English
+                </li>
+                <li class="section-block__main-item">
+                  + worked with scripts of various levels and themes
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section__title">education</h2>
+
+        <div class="section__block">
+          <div class="section-block__item">
+            <p class="section-block__date">2011 - 2015</p>
+            <p class="section-block__text">
+              University of the Arts London,
+              <span class="section-block__element"
+                >BA Design for Graphic Communications</span
+              >
+            </p>
+          </div>
+          <div class="section-block__item">
+            <p class="section-block__date">2017 - 2018</p>
+            <p class="section-block__text">
+              Netologia,
+              <span class="section-block__element"
+                >HTML/CSS and JavaScript (online courses)</span
+              >
+            </p>
+          </div>
+          <div class="section-block__item">
+            <p class="section-block__date">2023 - 2024</p>
+            <p class="section-block__text">
+              IT Girls School,
+              <span class="section-block__element"
+                >Front-end Development (online course)</span
+              >
+            </p>
+          </div>
+          <div class="section-block__item">
+            <p class="section-block__date">2024 - present</p>
+            <p class="section-block__text">
+              RS School,
+              <span class="section-block__element"
+                >Front-end and JavaScript (online course)</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <a class="footer__item1" href="https://github.com/girloflondon"
+        >my GitHub page<img
+          class="footer__item1-image"
+          id="github-logo"
+          src="./assets/icons/github.svg"
+          alt="GitHub"
+      ></a>
+
+      <p class="footer__text">november 2024</p>
+
+      <a class="footer__item2" href="https://rs.school/courses/javascript"
+        ><img
+          class="footer__item2-image"
+          id="rs-logo"
+          src="./assets/icons/RSSchool_white.svg"
+          alt="RS School"
+      ></a>
+    </footer>
+  </body>
 </html>

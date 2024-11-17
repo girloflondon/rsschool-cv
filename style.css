@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    hsla(339, 100%, 55%, 1) 0%,
+    hsla(197, 100%, 64%, 1) 100%
+  );
+  color: white;
+}
+
+.header__container,
+section,
+footer {
+  margin: 0 200px;
+  padding: 50px 60px;
+  border: 5px solid #fff;
+  border-top: none;
+  border-bottom: 5px dashed #fff;
+  background-color: #0b1215;
+}
+
+.menu {
+  padding: 20px 40px 50px 0;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.menu-list {
+  display: grid;
+  grid-template: 1fr / repeat(6, auto);
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.menu-list__item {
+  list-style: none;
+}
+
+.menu-list__item-link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-list__item-link:hover {
+  color: #ff1a6a;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.header__container {
+  display: grid;
+  grid-template: 1fr / 300px auto;
+  gap: 100px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-top: 5px solid #fff;
+}
+
+.header-container__image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.header-container__description {
+  display: grid;
+  grid-template: repeat(3, auto) / 1fr;
+  gap: 10px;
+}
+
+.description__title {
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 2.8em;
+  line-height: 1.1em;
+  color: #f7f0f0;
+}
+
+.title__name {
+  color: #ff1a6a;
+}
+
+.title__position {
+  color: #47cbff;
+}
+
+.description__element {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.description__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0 30px;
+}
+
+.description-list__item {
+  display: grid;
+  grid-template: 1fr / 30px auto;
+  gap: 20px;
+  align-items: center;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.1em;
+  color: #47cbff;
+  letter-spacing: 0.05em;
+}
+
+.description-list__link-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.description-list__link-icon:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  color: #ff1a6a;
+}
+
+h2:nth-child(2n + 1) {
+  color: #47cbff;
+}
+
+.section__text {
+  width: 65%;
+  min-width: 600px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.section__content {
+  display: grid;
+  grid-template: 1fr / repeat(2, auto);
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.section-content__list1,
+.section-content__list2 {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.section-content__list1 {
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(3, 1fr);
+  gap: 30px;
+}
+
+.section-content__list2 {
+  padding-left: 100px;
+}
+
+.section-content__list1-item,
+.section-content__list2-item {
+  padding-left: 2rem;
+  background-position: 0 0;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.section-content__list1-item {
+  background-image: url("./assets/icons/pink_square.svg");
+}
+
+.section-content__list2-item {
+  padding-bottom: 30px;
+  background-image: url("./assets/icons/blue_square.svg");
+}
+
+.section__container {
+  margin: 50px 0;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.section-container__block {
+  padding: 20px 10px;
+  display: grid;
+  grid-template: 1fr / 1fr 30% 10%;
+  gap: 30px;
+  align-items: center;
+  border-top: 1px solid #ff1a6a;
+}
+
+.section-container__block:last-child {
+  border-bottom: 1px solid #ff1a6a;
+}
+
+.section-container__block-link {
+  text-decoration: none;
+}
+
+.section-container__block-header {
+  font-size: 16px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.section-container__block-icon {
+  width: 40px;
+}
+
+.section-container__block-button {
+  height: 50px;
+  width: 50px;
+  display: grid;
+  align-items: center;
+  justify-self: end;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff1a6a;
+  border-radius: 50%;
+}
+
+.section__code-block,
+.section__code-link {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section__code-link {
+  font-style: italic;
+  color: #ff1a6a;
+}
+
+.section__block {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-block__list {
+  padding: 15px 0;
+  display: grid;
+  grid-template: repeat(2, auto) / 25% auto;
+  gap: 20px;
+  align-items: baseline;
+  border-bottom: 0.5px solid #47cbff;
+}
+
+.section-block__list:last-child {
+  border-bottom: none;
+}
+
+.section-block__side-date {
+  padding-bottom: 8px;
+  color: #ff1a6a;
+}
+
+.section-block__main-list {
+  padding-left: 0;
+  list-style-type: none;
+  color: #47cbff;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+}
+
+.section-block__item {
+  padding: 15px 0;
+  display: grid;
+  grid-template: 1fr / 25% auto;
+  gap: 20px;
+  justify-content: flex-start;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  border-bottom: 0.5px solid #47cbff;
+}
+
+.section-block__item:last-child {
+  border-bottom: none;
+}
+
+.section-block__date {
+  font-weight: 300;
+  color: #ff1a6a;
+}
+
+.section-block__element {
+  font-weight: 300;
+  color: #47cbff;
+}
+
+.footer {
+  margin-bottom: 100px;
+  padding: 30px 60px;
+  padding-left: 2rem;
+  height: 250px;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+  background-color: #0b1215;
+  border-bottom: 5px solid #fff;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  font-family: "Josefin Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.footer__item1 {
+  display: grid;
+  grid-template: repeat(2, auto) / 1fr;
+  gap: 10px;
+  justify-items: center;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#github-logo {
+  height: 100px;
+}
+
+#rs-logo {
+  height: 200px;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1199px) {
+  .header__container,
+  section,
+  footer {
+    padding: 30px 50px;
+  }
+
+  .menu {
+    font-size: 1.3em;
+  }
+
+  .header__container {
+    grid-template-columns: 260px 1fr;
+    gap: 60px;
+  }
+
+  .header-container__image {
+    height: 250px;
+    width: 250px;
+  }
+
+  .description__title {
+    font-size: 2.5em;
+    line-height: 1.1em;
+  }
+
+  .description-list__item {
+    gap: 15px;
+    font-size: 0.85em;
+    letter-spacing: 0.03em;
+  }
+
+  .description-list__link-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section__text {
+    min-width: 0;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .section__content {
+    font-size: 14px;
+  }
+
+  .section__code-block,
+  .section__code-link {
+    font-size: 14px;
+  }
+
+  .section-container__block {
+    padding: 10px;
+  }
+
+  .section-container__block-header {
+    font-size: 14px;
+  }
+
+  .section-container__block-icon {
+    width: 35px;
+  }
+
+  .section-container__block-button {
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  .section-block__list,
+  .section-block__item {
+    font-size: 16px;
+    letter-spacing: 0.02px;
+  }
+
+  .footer {
+    font-size: 16px;
+  }
+
+  #github-logo {
+    height: 70px;
+  }
+
+  #rs-logo {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1049px) {
+  .header__container,
+  section,
+  footer {
+    margin: 0 auto;
+    padding: 30px 40px;
+    width: 640px;
+  }
+
+  .menu {
+    font-size: 1em;
+  }
+
+  .header__container {
+    grid-template-columns: 220px 1fr;
+    gap: 40px;
+  }
+
+  .header-container__image {
+    height: 220px;
+    width: 220px;
+  }
+
+  .description__title {
+    font-size: 2.2em;
+    line-height: 1em;
+  }
+
+  .description-list__item {
+    gap: 10px;
+    font-size: 0.8em;
+    letter-spacing: 0.02em;
+  }
+
+  .description-list__link-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section__text {
+    min-width: 0;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .section__content {
+    font-size: 12px;
+  }
+
+  .section__code-block,
+  .section__code-link {
+    font-size: 12px;
+  }
+
+  .section-block__list,
+  .section-block__item {
+    font-size: 12px;
+    letter-spacing: 0.01em;
+  }
+
+  .footer {
+    padding: 20px 40px 30px 40px;
+    height: 100px;
+    font-size: 13px;
+  }
+
+  #github-logo {
+    height: 50px;
+  }
+
+  #rs-logo {
+    height: 120px;
+  }
+}
